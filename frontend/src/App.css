@@ -1,0 +1,19 @@
+body { margin: 0; background: #f5f5f5; font-family: system-ui, sans-serif; }
+.app { max-width: 1100px; margin: 0 auto; padding: 16px; }
+nav { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+nav h2 { margin: 0 auto 0 0; }
+nav button, form button { padding: 8px 16px; border: 0; border-radius: 6px; background: #ddd; cursor: pointer; }
+nav button.active, form button { background: #222; color: #fff; }
+form { display: flex; gap: 8px; margin-bottom: 20px; }
+form input { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 16px; }
+.card { background: #fff; border-radius: 8px; padding: 12px; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+.card img { width: 100%; border-radius: 4px; }
+.card h4 { margin: 8px 0 4px; font-size: 14px; }
+.author { color: #666; font-size: 12px; margin: 0 0 4px; }
+.meta { font-size: 12px; margin: 0; }
+.error { background: #fff3cd; padding: 10px; border-radius: 6px; margin-bottom: 16px; }
+.about { background: #fff; padding: 24px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.1); line-height: 1.6; }
+.about h4 { margin: 20px 0 6px; }
+.about ul, .about ol { margin: 6px 0; padding-left: 22px; }
+.by { margin-top: 24px; color: #666; font-size: 13px; }
